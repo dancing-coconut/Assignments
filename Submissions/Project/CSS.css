@@ -105,39 +105,7 @@
 .box-area div {
 	animation-delay: 0s;
 }
-.cursor{
-	position: fixed;
-	width: 50px;
-	height: 50px;
-	border: 1px solid #c6c6c6;
-	left: 0;
-	top: 0;
-	pointer-events: none;
-	transform: translate(-50%, -50%);
-	transition: .1s;
-  }
-  
-  .cursor2{
-	position: fixed;
-	width: 8px;
-	height: 8px;
-	background-color: #c6c6c6;
-	left: 0;
-	top: 0;
-	pointer-events: none;
-	transform: translate(-50%, -50%);
-	transition: .15s;
-  }
-  
-  .content:hover ~ .cursor{
-	transform: translate(-50%, -50%) scale(1.5);
-	background-color: #c6c6c6;
-	opacity: .5;
-  }
-  
-  .content:hover ~ .cursor2{
-	opacity: 0;
-  }
+
 @keyframes animate {
 	0% {
 		transform: translateY(0) rotate(0deg);
@@ -148,3 +116,9 @@
 		opacity: 70;
 	}
 }
+.circle {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #000;
+	position: absolute;
+  }
