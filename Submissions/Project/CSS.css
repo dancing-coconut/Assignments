@@ -75,13 +75,40 @@
 	height: 110px;
 	animation-delay: 3.5s;
 }
+.box-area li:nth-child(7) {
+	left: 5%;
+	width: 50px;
+	height: 50px;
+	animation-delay: 2.5s;
+	animation-duration: 12s;
+}
+.box-area li:nth-child(8) {
+	left: 95%;
+	width: 30px;
+	height: 30px;
+	animation-delay: 2s;
+	animation-duration: 14s;
+}
+.box-area li:nth-child(9) {
+	left: 50%;
+	width: 30px;
+	height: 30px;
+	animation-delay: 2.5s;
+	animation-duration: 12s;
+}
+.box-area li:nth-child(10) {
+	left: 95%;
+	width: 100px;
+	height: 100px;
+	animation-delay: 4s;
+}
 @keyframes animate {
 	0% {
 		transform: translateY(0) rotate(0deg);
-		opacity: 1;
+		opacity: 70;
 	}
 	100% {
 		transform: translateY(-800px) rotate(360deg);
-		opacity: 0;
+		opacity: 70;
 	}
 }
